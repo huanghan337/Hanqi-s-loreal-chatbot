@@ -1,0 +1,5 @@
+# Local secrets - do not commit
+secrets.js
+config.local.js
+node_modules/
+.env

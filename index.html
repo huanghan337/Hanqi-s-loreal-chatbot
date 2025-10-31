@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>L'Oréal — Smart Routine & Product Advisor</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <h1>L'Oréal — Smart Routine & Product Advisor</h1>
+  </header>
+
+  <main class="chat-app">
+    <div class="chat-wrapper">
+      <div id="latest-question" class="latest-question" aria-live="polite"></div>
+      <div id="chat" class="chat"></div>
+      <form id="input-form" class="input-form" onsubmit="return false;">
+        <input id="user-input" placeholder="Ask me about any L'Oréal product or routine…" autocomplete="off" />
+        <button id="send-btn" aria-label="Send">Send</button>
+      </form>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <p>© 2025 L'Oréal. For classroom demo only.</p>
+  </footer>
+
+  <script src="config.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

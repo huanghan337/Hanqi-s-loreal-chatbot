@@ -1,0 +1,17 @@
+:root{--brand:#cba135;--muted:#666;}
+*{box-sizing:border-box;font-family:Inter,system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial;}
+body{margin:0;padding:24px;background:#fff;color:#111;display:flex;flex-direction:column;align-items:center;}
+.site-header{margin-bottom:18px;text-align:center;}
+.chat-app{width:100%;max-width:900px;}
+.chat-wrapper{width:100%;border:1px solid #eee;padding:18px;border-radius:8px;background:#fafafa;}
+.latest-question{font-size:14px;color:var(--muted);margin-bottom:10px;min-height:20px;}
+.chat{height:420px;overflow:auto;padding:8px;background:#fff;border-radius:6px;border:1px solid #f0f0f0;}
+.message{margin:8px 0;display:flex;}
+.bubble{padding:12px;border-radius:12px;max-width:78%;box-shadow:0 1px 0 rgba(0,0,0,0.03);}
+.assistant .bubble{background:#fff;justify-content:flex-start;}
+.user{justify-content:flex-end;}
+.user .bubble{background:#f2f2f2;text-align:right;}
+.input-form{display:flex;margin-top:12px;border-top:1px solid #eee;padding-top:12px;}
+#user-input{flex:1;padding:12px;border-radius:6px;border:1px solid #ddd;font-size:15px;}
+#send-btn{background:var(--brand);color:white;border:none;padding:0 16px;margin-left:8px;border-radius:6px;font-size:16px;cursor:pointer;}
+.site-footer{margin-top:18px;text-align:center;color:var(--muted);font-size:13px;}
